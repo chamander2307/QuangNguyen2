@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Quang Nguyen</h1>
+
+          <p class="title">Business Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:quang.nguyenminh.work@gmail.com" class="contact-link">quang.nguyenminh.work@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+84 384876076</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">04/07/2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Binh Duong, Viet Nam</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I began my career in Eastern International University, where I developed a strong foundation in data analysis, critical thinking, and strategic problem-solving. My transition into business analytics was driven by my growing passion for using data to create measurable business impact. Throughout my journey, I’ve worked on projects like optimizing marketing campaigns, improving operational efficiency, developing financial forecasts, which have deepened my understanding of the importance of data-driven decision-making.
+          </p>
+
+          <p>
+            What sets me apart as a business analyst is my ability to bridge technical expertise with a strong sense of business acumen. My proficiency in tools like SQL, Excel, Tableau, or Python allows me to translate raw data into meaningful insights. Alongside my technical skills, I bring strong communication abilities, adaptability, and a collaborative mindset, enabling me to convey complex insights in a clear and engaging way. My goal is always to ensure that data not only informs but also drives impactful business decisions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-10.jpg" alt="Daniel lewis" width="40
+                  " data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Quang was brought on board to streamline our internal processes and enhance our reporting systems. His expertise in business analysis quickly became apparent as he worked closely with both technical and non-technical teams to identify bottlenecks and design efficient solutions. Quang's ability to understand the bigger picture, combined with his attention to detail, allowed us to make significant improvements in how we track and manage key metrics. He is a thoughtful communicator, always taking the time to ensure that all stakeholders are aligned and that the solutions meet both business needs and technical feasibility. His work has had a lasting impact, and we look forward to continuing our collaboration on future projects.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar11.jpg" alt="Jessica miller" width="20" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Quang joined our team to help us refine our business strategies and improve operational efficiency. From day one, his ability to quickly grasp complex business challenges and translate them into clear, actionable requirements was invaluable. He worked closely with various departments to ensure that everyone’s needs were heard, and that the solutions he proposed were practical and aligned with our overall goals. Quang is detail-oriented, yet always keeps the bigger picture in mind, balancing both short-term and long-term objectives. His thoughtful approach to problem-solving and his dedication to delivering high-quality results have made him an essential member of our team.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to creat e a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Eastern International University</h4>
+              <span>2020-2024</span>
+              <p class="timeline-text">
+                Transitioned into business analytics with a focus on data-driven decision-making.
+Developed foundational skills in data analysis, critical thinking, and strategic problem-solving.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Optimized Marketing Campaigns</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                Analyzed data to enhance campaign effectiveness.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Improved Operational Efficiency</h4>
+
+              <span>2023 — now</span>
+
+              <p class="timeline-text">
+                Leveraged insights to streamline operations.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Developed Financial Forecasts</h4>
+
+              <span>2023— now</span>
+
+              <p class="timeline-text">
+                Created forecasts to support business planning.
+              </p>
+
+            </li>
+
+          </ol>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Award</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Vietnam National Student Scientific Research Award</h4>
+                <span>2021</span>
+                <p class="timeline-text">
+                  project titled "Using Data Analytics to Improve Supply Chain Efficiency.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Startup Idea Competitions.</h4>
+                <span>2022</span>
+                <p class="timeline-text">"Market Insight" which leverages big data to provide real-time analysis of consumer preferences and trends.
+                </p>
+
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Best Business Plan Award</h4>
+                <span>2023</span>
+                <p class="timeline-text">project on developing a data visualization tool that helps businesses make informed decisions based on consumer behavior analytics.
+                </p>
+              </li>
+            </ol>
+          </section>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL, Excel</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis, Critical thinking</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adaptability, Collaborative mindset</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">English, German</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">New Project</h2>
+        </header>
+
+        <section class="about-text">
+          <img src="./assets/images/Bieudo.webp" alt="client logo" width="600">
+
+          <p>
+            <h3>Customer Review Sentiment Analysis</h3></p>
+            <ul class="list-number s-about__list">
+                <h4>I.Specify the Question</h4>
+                <li>
+                    Objective: Understand customer sentiment trends over time through online reviews to identify patterns and areas of improvement in customer experience.
+                </li>
+                <li>
+                    Keys Questions:
+                    <ul class="list-circle">
+                        <li>How does the volume of customer reviews change over time?
+                        </li>
+                        <li>What is the sentiment distribution (positive, negative, neutral) across verified and unverified reviews?
+                        </li>
+                        <li>Are there significant trends or seasonal patterns in customer reviews?
+                        </li>
+                        <li>How does the sentiment in verified reviews compare with unverified reviews?</li>
+                    </ul>
+                </li>
+            </ul>
+        <p>
+            <h4>Obtain the Data
+            </h4>
+            <ul class="list-number">
+                <li>
+                    Data-source:
+                    <ul class="list-circle"><li>Gather data from an e-commerce or review platform, including historical review data from verified and unverified customers.</li></ul>
+                    </li>
+                <li>Data Fields:
+                    <ul class="list-circle">
+                        <li>Review Date: The date when the review was posted.
+                        </li>
+                        <li>Review Text: The content of the review, which will be analyzed for sentiment.
+                        </li>
+                        <li>Sentiment Score: Pre-calculated score or label (positive, negative, or neutral) using a sentiment analysis model.
+                        </li>
+                    </ul>
+                </li>
+                <li>Data Collection Method:
+                    <ul class="list-circle">
+                        <Li>Use APIs from platforms like Amazon, Yelp, or Google Reviews to obtain customer review data. Alternatively, use web scraping methods if an API is unavailable. If sentiment scores aren’t available, use a pre-trained sentiment analysis model to label each review.</Li>
+                    </ul>
+                </li>
+                </ul>
+            <p class="nahbro"><h4>Analyze the Data</h4>
+             <ul class="list-number">
+                <li>
+                    Preprocessing:
+                    <ul class="list-circle">
+                        <li>Clean the review text by removing stop words, punctuation, and perform tokenization.</li>
+                    </ul>
+                </li>
+                <li>Sentiment Analysis:
+
+                    <ul class=" list-circle">
+                        <li>Use Natural Language Processing (NLP) to analyze the sentiment in each review. Models like VADER (for general text sentiment) or a fine-tuned BERT model can classify sentiments.
+                        </li>
+                        <li>Label each review as positive, negative, or neutral based on sentiment scores.
+                        </li>
+                    </ul>
+                    <li>Data Aggregation:
+                        <ul class="list-circle"><li>Group reviews by date, type (verified or unverified), and sentiment category to calculate the number of reviews per category over time.
+                        </li>
+                        <li>
+                            Calculate monthly or quarterly aggregates to identify trends and patterns.  
+                        </li>
+                    </ul>
+                    </li>
+                    <li>Visualization:
+                        <ul class="list-circle"><li>
+                            Time Series Plot: Display the number of verified and unverified reviews over time (similar to the image provided) to see growth and decline.
+
+                        </li>
+                        <li>
+                            Sentiment Distribution: Plot the sentiment breakdown (positive, negative, neutral) over time to understand how customer satisfaction has changed.
+                        </li>
+                        <li>
+                            Comparison Chart: Show sentiment differences between verified and unverified reviews to gauge authenticity and reliability.
+                        </li>
+                    </ul>
+                    </li>
+                </li>
+            </ul></p>
+            <h3>Results</h3>
+            <ul class="list-number">
+                <li>Summary of Findings:
+                    <ul class="list-circle">
+                        <li>Present insights on customer review trends and sentiment over the specified period. For instance, note any peak times or seasonal spikes in review volume (e.g., holiday season).
+                        </li>
+                        <li>Highlight the sentiment trends in verified reviews versus unverified reviews.
+                        </li>
+                        <li>
+                            Identify any significant shifts in sentiment that correlate with external events (such as product launches or policy changes).
+
+                        </li>
+                    </ul>
+                <li>
+                    Key Observations:
+                    <ul class="list-circle">
+                        <li>Report on whether verified reviews tend to be more positive or negative than unverified reviews, indicating customer trust or product quality perception.
+                        </li>
+                        <li>Discuss if there's a pattern in sentiment decline or improvement over the years, which could reflect on product quality, service changes, or market sentiment.
+                        </li>
+                    </ul>
+                </li>
+                <li>Recommendations:
+                    <ul class="list-circle">
+                        <li>
+                            Based on sentiment trends, suggest areas for improvement. For example, if negative sentiment peaks around specific times, investigate potential causes.
+                        </li>
+                        <li>
+                            Advise on encouraging more verified reviews if they show a more authentic customer perspective.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Visualizations: 
+                    <ul class="list-circle">
+                        <li>
+                            Visualizations: Include graphs and charts that provide a clear, visual summary of findings, allowing stakeholders to quickly grasp trends and insights.
+                        </li>
+                    </ul>
+                </li>
+                </li>
+            </ul>
+        </p>  
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125317.59141768157!2d106.57454099335173!3d11.025513532398284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d17273d88fa1%3A0x4ce77ac2d75e8e4c!2zVHAuIFRo4bunIEThuqd1IE3hu5l0LCBCw6xuaCBExrDGoW5nLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1730956893010!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
